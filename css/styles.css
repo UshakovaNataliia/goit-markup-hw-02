@@ -99,16 +99,160 @@ ul {
   color: var(--accent-color);
 }
 
+/* Hero */
+.hero {
+  background-color: var(--background-hero-color);
+}
+.hero-title {
+  color: var(--primary-white-color);
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+}
+
+.button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+}
+
 /* Секции */
 /* .section {
   background-color: var(--background-sections-color);
 } ВОПРОС: В макете указан этот цвет фона, но визуально он совсем не подходит*/
 .section-title {
   color: var(--secondary-text-color);
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 42px;
 }
+
+/* Преимущества */
+.advantage {
+  /* что-то будет тут */
+}
+.advantage-item {
+  /* что-то будет тут */
+}
+.advantage-title {
+  color: var(--secondary-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+}
+.advantage-description {
+  color: var(--primary-text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+/* Услуги */
+.services {
+  /* здесь что-то будет */
+}
+.services-title {
+  text-decoration: none;
+  background-color: var(--background-services-color);
+  color: var(--primary-white-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+/* Сотрудники */
 .section.team {
   background-color: var(--background-elements-color);
+}
+.team-list {
+  /* здесь что-то будет */
+}
+.team-list-item {
+  /* здесь что-то будет */
+}
+.team-list-title {
+  background-color: var(--primary-white-color);
+  color: var(--secondary-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+.profession {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+.network {
+  background-color: var(--primary-white-color);
+
+  /* здесь что-то будет */
+}
+.network-title {
+  /* здесь что-то будет */
+}
+.network-link {
+  /* здесь что-то будет */
+}
+
+/* Клиенты */
+.customers {
+  /* здесь что-то будет */
+}
+.customer-logo {
+  /* здесь что-то будет */
+}
+.customer-logo:hover,
+.customer-logo:focus {
+  color: var(--accent-color);
+}
+
+/* Футер */
+.footer {
+  background-color: var(--background-footer-color);
+}
+.address {
+  /* здесь что-то будет */
+}
+.footer-address {
+  color: var(--primary-white-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+.footer-contact {
+  color: var(--footer-contacts-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+.join {
+  /* здесь что-то будет */
+}
+.join-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+}
+.network-title-footer {
+  color: var(--primary-white-color);
+  background-color: var(--background-footer-logo-color);
+}
+.network-title-footer:hover,
+.network-title-footer:focus {
+  color: var(--accent-color);
+}
+.subscribe {
+  /* здесь что-то будет */
+}
+.subscribe-title {
+  color: var(--primary-white-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
 }
