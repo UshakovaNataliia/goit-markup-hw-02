@@ -16,12 +16,18 @@
     <header>
       <nav>
         <a href="./index.html" class="logo">
-          Web Studio
+          Web <span class="logo-studio">Studio</span>
         </a>
         <ul class="site-nav">
-          <li><a href="./index.html" class="link">Студия</a></li>
-          <li><a href="./portfolio.html" class="link">Портфолио</a></li>
-          <li><a href="" class="link">Контакты</a></li>
+          <li class="site-nav-title">
+            <a href="./index.html" class="link current">Студия</a>
+          </li>
+          <li class="site-nav-title">
+            <a href="./portfolio.html" class="link">Портфолио</a>
+          </li>
+          <li class="site-nav-title">
+            <a href="" class="link">Контакты</a>
+          </li>
         </ul>
       </nav>
       <ul class="contacts-nav">
@@ -249,7 +255,7 @@
     <footer class="footer">
       <div class="address">
         <a href="./index.html" class="logo">
-          Web Studio
+          Web <span class="logo-footer">Studio</span>
         </a>
         <address class="footer-address">
           г. Киев, пр-т Леси Украинки, 26 <br />
@@ -267,32 +273,46 @@
           <li class="network-title-footer">
             <a
               href="https://www.instagram.com/?hl=ru"
+              class="network-footer-link"
               aria-label="Ссылка на Instagram"
               >Instagram</a
             >
           </li>
           <li class="network-title-footer">
-            <a href="https://twitter.com" aria-label="Ссылка на Twitter"
+            <a
+              href="https://twitter.com"
+              class="network-footer-link"
+              aria-label="Ссылка на Twitter"
               >Twitter</a
             >
           </li>
           <li class="network-title-footer">
-            <a href="https://facebook.com/" aria-label="Ссылка на Facebook"
+            <a
+              href="https://uk-ua.facebook.com/"
+              class="network-footer-link"
+              aria-label="Ссылка на Facebook"
               >Facebook</a
             >
           </li>
           <li class="network-title-footer">
-            <a href="https://www.linkedin.com/" aria-label="Ссылка на Linkedin"
+            <a
+              href="https://www.linkedin.com/"
+              class="network-footer-link"
+              aria-label="Ссылка на Linkedin"
               >Linkedin</a
             >
           </li>
         </ul>
       </div>
       <div class="subscribe">
-        <b class="subscribe-title">Подпишитесь на рассылку</b>
+        <b class="subscribe-title">Подпишитесь на рассылку </b>
+        <button class="subscribe-button">
+          Подписаться<img src="./images/icon-send.png" alt="Отправить" />
+        </button>
+
         <!--Ниже будет форма подписки-->
       </div>
-      <p>2020 | Developed by GoIT Students</p>
+      <p class="footer-end">2020 | Developed by GoIT Students</p>
     </footer>
   </body>
 </html>
